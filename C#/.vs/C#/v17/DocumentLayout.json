@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\git\\SummerPractice\\C#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\SummerPractice\\C#\\Week2\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week2\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\SummerPractice\\C#\\Week1\\notes\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week1\\notes\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\SummerPractice\\C#\\Week1\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week1\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\SummerPractice\\C#\\week1\\code\\loopspractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:week1\\code\\loopspractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,6 +32,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "readme.md",
+              "DocumentMoniker": "C:\\git\\SummerPractice\\C#\\Week2\\readme.md",
+              "RelativeDocumentMoniker": "Week2\\readme.md",
+              "ToolTip": "C:\\git\\SummerPractice\\C#\\Week2\\readme.md",
+              "RelativeToolTip": "Week2\\readme.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-06-28T19:01:07.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "readme.md",
               "DocumentMoniker": "C:\\git\\SummerPractice\\C#\\Week1\\notes\\readme.md",
               "RelativeDocumentMoniker": "Week1\\notes\\readme.md",
               "ToolTip": "C:\\git\\SummerPractice\\C#\\Week1\\notes\\readme.md",
@@ -44,31 +53,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-06-28T18:56:28.996Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "readme.md",
-              "DocumentMoniker": "C:\\git\\SummerPractice\\C#\\Week1\\readme.md",
-              "RelativeDocumentMoniker": "Week1\\readme.md",
-              "ToolTip": "C:\\git\\SummerPractice\\C#\\Week1\\readme.md",
-              "RelativeToolTip": "Week1\\readme.md",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAH8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-06-28T18:47:15.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\git\\SummerPractice\\C#\\Week1\\code\\LoopsPractice\\Program.cs",
-              "RelativeDocumentMoniker": "Week1\\code\\LoopsPractice\\Program.cs",
-              "ToolTip": "C:\\git\\SummerPractice\\C#\\Week1\\code\\LoopsPractice\\Program.cs",
-              "RelativeToolTip": "Week1\\code\\LoopsPractice\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T18:44:53.242Z"
             }
           ]
         }
