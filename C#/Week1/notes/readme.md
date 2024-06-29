@@ -59,7 +59,7 @@ This guide provides a detailed summary of the key concepts used in the Windows F
     ```
 ![Vowels]()
 
-![Cons]()
+![Cons](https://github.com/omniV1/SummerPractice/blob/main/C%23/Week1/notes/cons.png)
 ## Definitions Table
 
 | Term           | Definition                                                               |
