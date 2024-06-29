@@ -14,7 +14,7 @@ This practice exercise is designed to help refresh my understanding of key TypeS
    - Use `number`, `string`, `boolean`, `array`, and `tuple`.
 
 #### Code Example (`part1_variables.ts`)
-```
+``` TypeScript
 (() => {
     let age: number = 30;
     let name: string = "John Doe";
@@ -36,7 +36,7 @@ This practice exercise is designed to help refresh my understanding of key TypeS
    - Use `switch` to handle multiple conditions.
 
 #### Code Example (`part2_control_structures.ts`)
-```
+``` TypeScript
 (() => {
     let age: number = 20;
 
@@ -69,7 +69,7 @@ This practice exercise is designed to help refresh my understanding of key TypeS
    - Use `for`, `while`, `do-while`, `for-of`, and `for-in` loops to iterate over arrays and objects.
 
 #### Code Example (`part3_loops.ts`)
-```
+``` TypeScript
 (() => { 
     let scores: number[] = [85, 90, 78];
 
@@ -103,7 +103,7 @@ This practice exercise is designed to help refresh my understanding of key TypeS
    - Implement arrow functions.
 
 #### Code Example (`part4_functions.ts`)
-```
+``` TypeScript
 (() => {
     function greet(name: string, greeting: string = "Hello"): string {
         return `${greeting}, ${name}!`;
@@ -127,7 +127,7 @@ This practice exercise is designed to help refresh my understanding of key TypeS
    - Define and implement an interface.
 
 #### Code Example (`part5_oop.ts`)
-```
+``` TypeScript
 (() => {
     class Animal {
         constructor(private name: string) {}
