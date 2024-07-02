@@ -57,7 +57,10 @@ This guide provides a detailed summary of the key concepts used in the Windows F
     vowels.ForEach(v => output.AppendLine(v));
     lblResults.Text = output.ToString();
     ```
+### Forms Design
+![Vowels](https://github.com/omniV1/SummerPractice/blob/main/C%23/Week1/notes/vowels.png)
 
+![Cons](https://github.com/omniV1/SummerPractice/blob/main/C%23/Week1/notes/cons.png)
 ## Definitions Table
 
 | Term           | Definition                                                               |
