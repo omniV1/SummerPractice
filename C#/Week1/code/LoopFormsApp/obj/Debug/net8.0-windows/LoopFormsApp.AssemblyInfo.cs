@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoopFormsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9797d19944f08a8439282fde63f5f8ff47e5c3ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a80b13c26f26bb54d29e2c426d92d3067eda7198")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoopFormsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoopFormsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
