@@ -1,4 +1,4 @@
-# Week 1 Java Refresher - Detailed Summary of Concepts
+# Week 2 Java Refresher - Detailed Summary of Concepts
 
 ## Overview
 
