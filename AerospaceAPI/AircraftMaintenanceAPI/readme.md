@@ -1,109 +1,171 @@
-# Project Bookmark: Aircraft Maintenance API
+# Aircraft Maintenance API
 
-## Overview
+This project is a RESTful API for managing aircraft maintenance records.
 
-This guide provides a summary of the key concepts and progress of the Aircraft Maintenance API project. This project is being developed as a showcase for my skills in ASP.NET Core, React with TypeScript, and MySQL.
-
-## Current Progress
+## Major Checkpoints
 
 ### Project Setup
-- **ASP.NET Core Project**: Created an ASP.NET Core Web API project named `AircraftMaintenanceAPI`.
-- **Models Created**:
-  - `Aircraft`
-  - `MaintenanceRecord`
-  - `PerformanceMetric`
-  - `User`
-- **Database Context**: Configured `AircraftMaintenanceContext` to manage the database interactions.
-- **Middleware**: Implemented `ErrorHandlingMiddleware` for centralized error handling.
-- **Docker Setup**: Created a `Dockerfile` and `docker-compose.yml` to containerize the application and the MySQL database.
+- [x] **Initialized Project Structure**: Set up the basic directory structure and initialized a new ASP.NET Core project.
+- [x] **Added Essential Packages**: Installed necessary packages including EntityFrameworkCore, MySqlConnector, and ASP.NET Core tools.
 
-### Docker Configuration
-- Created a `Dockerfile` to build the ASP.NET Core application.
-- Created a `docker-compose.yml` file to configure and run both the ASP.NET Core application and the MySQL database.
-- Added Docker support for both services, including volumes for data persistence and network configuration for inter-service communication.
+### Database Integration
+- [x] **Database Configuration**: Configured MySQL database connection in `appsettings.json`.
+- [x] **Entity Framework Integration**: Set up Entity Framework Core with MySQL and created `AircraftMaintenanceContext` for database operations.
+- [x] **Database Migrations**: Generated initial database migrations and applied them to create the database schema.
 
-### Database Setup
-- **Entity Framework**: Integrated Entity Framework Core with MySQL using the Pomelo.EntityFrameworkCore.MySql package.
-- **Migrations**: Successfully created and applied the initial migration for the database schema.
+### CRUD Operations Implementation
+- [x] **Created Models**: Defined models for `Aircraft`, `MaintenanceRecord`, `PerformanceMetric`, and `User`.
+- [x] **Created DbContext**: Set up `AircraftMaintenanceContext` to manage the database context.
+- [x] **Implemented Controllers**: Developed `AircraftsController` with CRUD operations (GET, POST, PUT, DELETE).
 
-## Issues Encountered
-- **Non-nullable Warnings**: Several warnings related to non-nullable properties in models (e.g., `Username`, `Password`, `Model`, etc.).
-- **Database Connection Error**: Encountered a connection error when attempting to update the database through Docker, indicating the MySQL service wasn't reachable.
+### Middleware and Error Handling
+- [x] **Custom Middleware**: Implemented `ErrorHandlingMiddleware` to handle and log exceptions.
+- [x] **Status Code Pages**: Configured status code pages to return JSON responses for API errors.
 
-## TODOs
+### Unit and Integration Testing
+- [x] **Unit Tests**: Wrote unit tests for service methods.
+- [x] **Integration Tests**: Created integration tests using Postman for API endpoints, including tests for response status, content type, and schema validation.
 
-### Immediate Next Steps
-1. **Resolve Non-nullable Warnings**:
-   - Address the warnings in the models by either initializing properties or making them nullable where appropriate.
+### Documentation
+- [x] **API Documentation**: Documented API endpoints and example requests/responses in Postman.
+- [x] **README Update**: Detailed documentation of the project setup, API endpoints, and progress in README.md.
 
-2. **Setup Docker Environment**:
-   - Download and install Docker Desktop to manage the Docker containers.
-   - Ensure Docker Compose is installed and accessible via the command line.
+### Continuous Integration/Continuous Deployment
+- [ ]**CI/CD Pipeline**: Set up GitHub Actions for automated builds and tests (work in progress).
 
-3. **Run Docker Containers**:
-   - Use `docker-compose up --build` to start the services.
-   - Verify that the ASP.NET Core application and MySQL database are running correctly.
+## Prerequisites
 
-4. **Database Connection**:
-   - Resolve any issues related to database connectivity within the Docker environment.
-   - Ensure that the ASP.NET Core application can successfully connect to the MySQL database and perform operations.
+- .NET 8 SDK
+- MySQL server
+- Visual Studio or Visual Studio Code
+- Postman (for testing API endpoints)
 
-### Development and Enhancement
-5. **API Endpoints**:
-   - Implement CRUD operations for `Aircraft`.
-   - Implement CRUD operations for `MaintenanceRecord`.
-   - Implement CRUD operations for `PerformanceMetric`.
-   - Implement user authentication and authorization endpoints.
+## Setup
 
-6. **Testing and Validation**:
-   - Write unit tests for the API endpoints.
-   - Perform integration tests to ensure all components work together as expected.
-   - Validate input data to ensure the API handles edge cases and invalid data gracefully.
+### Clone the Repository
 
-7. **Frontend Development**:
-   - Set up a React frontend with TypeScript.
-   - Implement user interfaces for managing aircraft, maintenance records, and performance metrics.
-   - Integrate the frontend with the backend API.
-   - Ensure proper form validations and error handling on the frontend.
+First, clone the repository to your local machine:
 
-### Deployment and Maintenance
-8. **Continuous Integration/Continuous Deployment (CI/CD)**:
-   - Set up a CI/CD pipeline to automate testing and deployment.
-   - Use GitHub Actions or another CI/CD tool to manage the pipeline.
+git clone https://github.com/yourusername/AircraftMaintenanceAPI.git
+cd AircraftMaintenanceAPI
 
-9. **Security Enhancements**:
-   - Implement JWT-based authentication and authorization.
-   - Secure the API endpoints with appropriate role-based access control.
-   - Perform security testing to identify and fix vulnerabilities.
+### Setup the Database
 
-10. **Documentation**:
-    - Document the API endpoints using tools like Swagger/OpenAPI.
-    - Write detailed README and documentation for setting up and running the project.
-    - Provide usage examples and API documentation for developers.
+Make sure you have MySQL installed and running. Then, create a new database for the project:
 
-### Final Steps
-11. **User Feedback and Iteration**:
-    - Gather feedback from users and stakeholders.
-    - Iterate on the feedback to improve the application.
+CREATE DATABASE AircraftMaintenanceDB;
 
-12. **Final Testing and Launch**:
-    - Perform final testing to ensure everything works as expected.
-    - Deploy the application to a production environment.
-    - Monitor the application post-launch for any issues or improvements.
+### Configure Connection String
 
-## How to Resume
+Update the connection string in `appsettings.json` to match your MySQL configuration:
 
-1. **Download Docker Desktop**: Install Docker Desktop from [Docker's official website](https://www.docker.com/products/docker-desktop/).
-2. **Start Docker**: Ensure Docker Desktop is running.
-3. **Navigate to Project Directory**: Open a terminal and navigate to the project directory.
-4. **Build and Run Containers**: Execute `docker-compose up --build` to start the services.
-5. **Verify Services**: Check that both the API and MySQL database are running correctly.
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=localhost;port=3306;database=AircraftMaintenanceDB;user=root;password=Bannana"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
 
-## Current Commands Used
+### Restore Dependencies
 
-```sh
-git init
-git add .
-git commit -m "Initial commit with project setup and Docker configuration"
-git remote add origin https://github.com/yourusername/yourrepository.git
-git push -u origin main
+Restore the project's dependencies using the .NET CLI:
+
+dotnet restore
+
+### Apply Database Migrations
+
+To ensure your database schema is up to date, apply the migrations:
+
+dotnet ef database update
+
+### Run the Application
+
+Run the application using the .NET CLI:
+
+dotnet run
+
+The application should now be running on `http://localhost:5240`.
+
+## API Documentation
+### SEE ![API POSTMAN DOCUMENTATON](https://documenter.getpostman.com/view/32764813/2sA3e1Apqr)
+
+### Endpoints
+
+- **GET** `/api/aircrafts` - Retrieve all aircrafts
+- **GET** `/api/aircrafts/{id}` - Retrieve an aircraft by ID
+- **POST** `/api/aircrafts` - Create a new aircraft
+- **PUT** `/api/aircrafts/{id}` - Update an aircraft
+- **DELETE** `/api/aircrafts/{id}` - Delete an aircraft
+
+### Example Requests
+
+#### GET `/api/aircrafts`
+
+[
+  {
+    "id": 1,
+    "model": "Boeing 747",
+    "serialNumber": "SN747",
+    "lastMaintenanceDate": "2023-07-06T08:00:00"
+  },
+  {
+    "id": 2,
+    "model": "Airbus A320",
+    "serialNumber": "SNA320",
+    "lastMaintenanceDate": "2023-07-06T08:00:00"
+  }
+]
+
+#### POST `/api/aircrafts`
+
+Request Body:
+
+{
+  "model": "Cessna 172",
+  "serialNumber": "SN172",
+  "lastMaintenanceDate": "2024-07-06T08:00:00"
+}
+
+#### PUT `/api/aircrafts/{id}`
+
+Request Body:
+
+{
+  "id": 1,
+  "model": "Updated Model",
+  "serialNumber": "UpdatedSerial123",
+  "lastMaintenanceDate": "2024-07-06T08:00:00"
+}
+
+#### DELETE `/api/aircrafts/{id}`
+
+Response:
+
+{
+  "message": "Aircraft deleted successfully."
+}
+
+### Running Tests
+
+To run the Postman tests, import the Postman collection from the `tests` directory and execute the requests.
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+## Future TODOS
+
+- [ ] **CI/CD Pipeline**: Set up GitHub Actions for automated builds and tests.
+- [ ] **React Frontend**: Develop a frontend application using React.
+- [ ] **Frontend Integration**: Connect the React frontend with the API.
+- [ ] **Additional Features**: Implement additional features such as user authentication, authorization, and role management.
+- [ ] **Performance Optimization**: Optimize API performance and database queries.
+- [ ] **Documentation**: Enhance documentation with detailed usage examples and setup guides.
+- [ ] **Unit Tests**: Expand unit tests to cover more edge cases and scenarios.
+- [ ] **Integration Tests**: Enhance integration tests for comprehensive API validation.
