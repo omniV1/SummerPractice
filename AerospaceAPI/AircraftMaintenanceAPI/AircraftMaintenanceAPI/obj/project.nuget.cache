@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "24RkMXz4VKGT69Du7zp75mYhtcf7NLNnRyR+WcVhlfHxOV2fZYP0aJ+NEgpBwA2hMHxJpUziBmlwYbdmt9mljA==",
+  "dgSpecHash": "k6SGlIPTUWjGWHD9xlBPWbelWLOIu1lZPoWD/q+r2ffu9CxUqYdEr0R+rbYBosYa8U3SigqfPuA3JHCgXDrWOg==",
   "success": true,
   "projectFilePath": "C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\Owenl\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.6\\microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",
     "C:\\Users\\Owenl\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.6\\microsoft.entityframeworkcore.design.8.0.6.nupkg.sha512",
     "C:\\Users\\Owenl\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.6\\microsoft.entityframeworkcore.relational.8.0.6.nupkg.sha512",
+    "C:\\Users\\Owenl\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.6\\microsoft.entityframeworkcore.tools.8.0.6.nupkg.sha512",
     "C:\\Users\\Owenl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Owenl\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Owenl\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",

@@ -83,25 +83,21 @@ namespace AircraftMaintenanceAPI.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAircraft(int id, Aircraft aircraft)
         {
-            // Check if the provided ID matches the aircraft's ID
             if (id != aircraft.Id)
             {
                 return BadRequest("Aircraft ID mismatch.");
             }
 
-            // Validate the model state
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            // Ensure the model and serial number are not null or empty
             if (string.IsNullOrWhiteSpace(aircraft.Model) || string.IsNullOrWhiteSpace(aircraft.SerialNumber))
             {
                 return BadRequest("Model and Serial Number are required.");
             }
 
-            // Update the aircraft details in the context
             _context.Entry(aircraft).State = EntityState.Modified;
 
             try
@@ -122,6 +118,7 @@ namespace AircraftMaintenanceAPI.Controllers
 
             return NoContent();
         }
+
 
         /// <summary>
         /// Delete an aircraft.

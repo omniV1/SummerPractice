@@ -1,22 +1,39 @@
-﻿using Microsoft.EntityFrameworkCore;
-using AircraftMaintenanceAPI.Models;
+﻿using AircraftMaintenanceAPI.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
 
-namespace AircraftMaintenanceAPI.Data
+namespace AircraftMaintenanceAPI.Data  // Make sure this matches the folder structure
 {
-    /// <summary>
-    /// Database context for the Aircraft Maintenance API.
-    /// </summary>
     public class AircraftMaintenanceContext : DbContext
     {
-        public DbSet<User> Users { get; set; }
+        public AircraftMaintenanceContext(DbContextOptions<AircraftMaintenanceContext> options)
+            : base(options)
+        {
+        }
+
         public DbSet<Aircraft> Aircrafts { get; set; }
         public DbSet<MaintenanceRecord> MaintenanceRecords { get; set; }
         public DbSet<PerformanceMetric> PerformanceMetrics { get; set; }
+        public DbSet<User> Users { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configure the MySQL database connection string
-            optionsBuilder.UseMySql("server=localhost;database=AircraftMaintenanceDB;user=root;password=yourpassword", new MySqlServerVersion(new Version(8, 0, 21)));
+            modelBuilder.Entity<Aircraft>().HasData(
+                new Aircraft
+                {
+                    Id = 1,
+                    Model = "Boeing 747",
+                    SerialNumber = "SN747",
+                    LastMaintenanceDate = DateTime.Now
+                },
+                new Aircraft
+                {
+                    Id = 2,
+                    Model = "Airbus A320",
+                    SerialNumber = "SNA320",
+                    LastMaintenanceDate = DateTime.Now
+                }
+            );
         }
     }
 }
