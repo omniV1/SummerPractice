@@ -1,70 +1,162 @@
-# Getting Started with Create React App
+# Aircraft Maintenance Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based frontend for the Aircraft Maintenance API, providing a user-friendly interface to manage aircraft maintenance records.
 
-## Available Scripts
+## Major Checkpoints
 
-In the project directory, you can run:
+### Project Setup
+- [x] **Initialized React Project**: Created a new React project using Create React App.
+- [x] **Organized Project Structure**: Structured the project with separate directories for components and services.
 
-### `npm start`
+### Component Development
+- [x] **AircraftList Component**: Developed to display a list of all aircrafts.
+- [x] **AircraftDetails Component**: Created to show details of a specific aircraft.
+- [x] **AircraftForm Component**: Built to handle adding and updating aircrafts.
+- [x] **AircraftEdit Component**: Added to facilitate editing of existing aircrafts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### API Integration
+- [x] **Configured Axios**: Set up Axios to communicate with the backend API.
+- [x] **Implemented CRUD Operations**: Integrated the frontend components with the API for full CRUD functionality.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Routing
+- [x] **Set Up React Router**: Configured routing to navigate between different components.
 
-### `npm test`
+### Styling
+- [x] **Styled Components**: Added CSS for a consistent and clean UI.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+- Node.js and npm
+- React (created using Create React App)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Clone the Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+First, clone the repository to your local machine:
 
-### `npm run eject`
+git clone https://github.com/yourusername/aircraft-maintenance-frontend.git
+cd aircraft-maintenance-frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install the necessary dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+mathematica
+Copy code
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Run the Application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the React development server:
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+csharp
+Copy code
 
-### Analyzing the Bundle Size
+The frontend application should now be running on `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Structure
 
-### Making a Progressive Web App
+aircraft-maintenance-frontend/
+├── public/
+│ ├── favicon.ico
+│ ├── index.html
+│ ├── logo192.png
+│ ├── logo512.png
+│ ├── manifest.json
+│ └── robots.txt
+├── src/
+│ ├── components/
+│ │ ├── AircraftDetails.js
+│ │ ├── AircraftEdit.js
+│ │ ├── AircraftForm.js
+│ │ ├── AircraftList.js
+│ │ ├── Footer.js
+│ │ ├── Header.js
+│ │ └── NavBar.js
+│ ├── services/
+│ │ └── api.js
+│ ├── styles/
+│ │ └── App.css
+│ ├── App.js
+│ ├── App.test.js
+│ ├── index.css
+│ ├── index.js
+│ ├── logo.svg
+│ ├── reportWebVitals.js
+│ └── setupTests.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+markdown
+Copy code
 
-### Advanced Configuration
+## Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### AircraftList Component
 
-### Deployment
+Displays a list of all aircrafts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### AircraftDetails Component
 
-### `npm run build` fails to minify
+Shows details of a specific aircraft.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### AircraftForm Component
+
+Handles adding new aircrafts.
+
+### AircraftEdit Component
+
+Facilitates editing of existing aircrafts.
+
+## Services
+
+### API Service (api.js)
+
+Handles communication with the backend API using Axios.
+
+- **getAircrafts**: Retrieves all aircrafts.
+- **getAircraftById**: Retrieves a specific aircraft by ID.
+- **createAircraft**: Adds a new aircraft.
+- **updateAircraft**: Updates an existing aircraft.
+- **deleteAircraft**: Deletes an aircraft by ID.
+
+## Routing
+
+The application uses React Router to navigate between different components:
+
+- **/**: Home page displaying the list of aircrafts.
+- **/add**: Page for adding a new aircraft.
+- **/edit/:id**: Page for editing an existing aircraft.
+
+## Styling
+
+All the CSS styles are contained within the `App.css` file located in the `styles` directory.
+
+## Running Tests
+
+To run the tests, use the following command:
+
+npm test
+
+markdown
+Copy code
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+## Future TODOS
+
+- [ ] **Error Handling**: Implement more robust error handling and display error messages in the UI.
+- [ ] **Validation**: Add form validation to ensure data integrity.
+- [ ] **User Authentication**: Implement user authentication and authorization.
+- [ ] **Styling Improvements**: Enhance the UI with more styling and responsiveness.
+- [ ] **Unit Tests**: Expand unit tests to cover more components and functionalities.
+- [ ] **Integration Tests**: Add integration tests to ensure seamless API integration.
