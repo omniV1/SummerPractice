@@ -17,6 +17,17 @@ builder.Services.AddScoped<IAircraftService, AircraftService>();
 builder.Services.AddScoped<IMaintenanceRecordService, MaintenanceRecordService>();
 builder.Services.AddScoped<IPerformanceMetricService, PerformanceMetricService>();
 
+// Add CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 app.UseMiddleware<ErrorHandlingMiddleware>();
@@ -27,6 +38,7 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
+    app.UseHttpsRedirection();
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
@@ -43,11 +55,13 @@ app.UseStatusCodePages(async context =>
         {
             StatusCode = response.StatusCode,
             Message = "Bad Request"
-        }.ToString());
+        }.ToString() ?? "");
     }
 });
 
-app.UseHttpsRedirection();
+// Enable CORS
+app.UseCors("AllowAllOrigins");
+
 app.UseStaticFiles();
 
 app.UseRouting();

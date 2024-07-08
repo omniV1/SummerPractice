@@ -7,75 +7,75 @@
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\documentation\\postman-api-testing.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\services\\aircraftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\services\\aircraftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\services\\aircraftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\controllers\\aircraftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\controllers\\aircraftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\controllers\\aircraftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\migrations\\aircraftmaintenancecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\migrations\\aircraftmaintenancecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\migrations\\aircraftmaintenancecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\migrations\\20240705152605_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\migrations\\20240705152605_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\migrations\\20240705152605_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\services\\performancemetricservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\services\\performancemetricservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\services\\performancemetricservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\services\\iperformancemetricservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\services\\iperformancemetricservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\services\\iperformancemetricservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\services\\imaintenancerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\services\\imaintenancerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\services\\imaintenancerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\services\\iaircraftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\services\\iaircraftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\services\\iaircraftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\data\\aircraftmaintenancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\data\\aircraftmaintenancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\data\\aircraftmaintenancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\services\\maintenancerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\services\\maintenancerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\services\\maintenancerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\models\\performancemetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\models\\performancemetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\models\\performancemetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\models\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\models\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\models\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\models\\aircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\models\\aircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\models\\aircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|c:\\git\\summerpractice\\aerospaceapi\\aircraftmaintenanceapi\\aircraftmaintenanceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\aircraftmaintenanceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}|AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj|solutionrelative:aircraftmaintenanceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -123,8 +123,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Program.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAvwDgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:56:07.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:56:07.327Z"
             },
             {
               "$type": "Document",
@@ -136,8 +135,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Controllers\\AircraftController.cs",
               "ViewState": "AQIAAFUAAAAAAAAAAAAswHgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:49:45.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:49:45.974Z"
             },
             {
               "$type": "Document",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Middleware\\ErrorHandlingMiddleware.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:49:43.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:49:43.094Z"
             },
             {
               "$type": "Document",
@@ -162,8 +159,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Migrations\\AircraftMaintenanceContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:31:46.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:31:46.375Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Migrations\\20240705152605_InitialCreate.cs",
               "ViewState": "AQIAAGYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:31:40.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:31:40.375Z"
             },
             {
               "$type": "Document",
@@ -188,8 +183,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Services\\UserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:28:19.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:28:19.845Z"
             },
             {
               "$type": "Document",
@@ -201,8 +195,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Services\\PerformanceMetricService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:28:18.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:28:18.453Z"
             },
             {
               "$type": "Document",
@@ -214,8 +207,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Services\\AircraftService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:25:24.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:25:24.921Z"
             },
             {
               "$type": "Document",
@@ -227,8 +219,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Services\\IPerformanceMetricService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:28:17.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:28:17.198Z"
             },
             {
               "$type": "Document",
@@ -240,8 +231,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Services\\MaintenanceRecordService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:25:50.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:25:50.25Z"
             },
             {
               "$type": "Document",
@@ -253,8 +243,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Services\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:25:37.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:25:37.517Z"
             },
             {
               "$type": "Document",
@@ -266,8 +255,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Services\\IMaintenanceRecordService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:25:36.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:25:36.917Z"
             },
             {
               "$type": "Document",
@@ -279,8 +267,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Services\\IAircraftService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:25:34.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:25:34.755Z"
             },
             {
               "$type": "Document",
@@ -292,8 +279,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Models\\PerformanceMetric.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:25:22.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:25:22.342Z"
             },
             {
               "$type": "Document",
@@ -305,8 +291,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Models\\MaintenanceRecord.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:25:21.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:25:21.161Z"
             },
             {
               "$type": "Document",
@@ -318,8 +303,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Models\\Aircraft.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:25:19.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:25:19.013Z"
             },
             {
               "$type": "Document",
@@ -331,8 +315,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\Data\\AircraftMaintenanceContext.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAswCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:25:16.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:25:16.23Z"
             },
             {
               "$type": "Document",
@@ -344,8 +327,7 @@
               "RelativeToolTip": "AircraftMaintenanceAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-06T17:20:36.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:20:36.248Z"
             }
           ]
         }

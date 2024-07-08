@@ -31,7 +31,14 @@ This project is a RESTful API for managing aircraft maintenance records.
 - [x] **README Update**: Detailed documentation of the project setup, API endpoints, and progress in README.md.
 
 ### Continuous Integration/Continuous Deployment
-- [ ]**CI/CD Pipeline**: Set up GitHub Actions for automated builds and tests (work in progress).
+- [ ] **CI/CD Pipeline**: Set up GitHub Actions for automated builds and tests (work in progress).
+
+### Frontend Development
+- [x] **React Frontend Setup**: Initialized a new React project using Create React App.
+- [x] **Project Structure**: Organized the React project with separate directories for components and services.
+- [x] **Implemented Components**: Developed components for listing, adding, editing, and deleting aircrafts.
+- [x] **API Integration**: Integrated React components with the backend API using Axios.
+- [x] **Styling**: Added CSS for consistent styling across components.
 
 ## Prerequisites
 
@@ -92,8 +99,25 @@ dotnet run
 
 The application should now be running on `http://localhost:5240`.
 
+### Setup React Frontend
+
+Navigate to the `aircraft-maintenance-frontend` directory:
+
+cd aircraft-maintenance-frontend
+
+Install the necessary dependencies:
+
+npm install
+
+Start the React development server:
+
+npm start
+
+The frontend application should now be running on `http://localhost:3000`.
+
 ## API Documentation
-### SEE ![API POSTMAN DOCUMENTATON](https://documenter.getpostman.com/view/32764813/2sA3e1Apqr)
+
+### SEE ![API POSTMAN DOCUMENTATION](https://documenter.getpostman.com/view/32764813/2sA3e1Apqr)
 
 ### Endpoints
 
@@ -162,9 +186,9 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 ## Future TODOS
 
 - [ ] **CI/CD Pipeline**: Set up GitHub Actions for automated builds and tests.
-- [ ] **React Frontend**: Develop a frontend application using React.
-- [ ] **Frontend Integration**: Connect the React frontend with the API.
-- [ ] **Additional Features**: Implement additional features such as user authentication, authorization, and role management.
+- [ ] **User Authentication and Authorization**: Implement user registration, login, and role management.
+- [ ] **Search and Filter Functionality**: Add search and filter options for aircrafts.
+- [ ] **Additional Features**: Implement additional features such as notifications and reporting.
 - [ ] **Performance Optimization**: Optimize API performance and database queries.
 - [ ] **Documentation**: Enhance documentation with detailed usage examples and setup guides.
 - [ ] **Unit Tests**: Expand unit tests to cover more edge cases and scenarios.
