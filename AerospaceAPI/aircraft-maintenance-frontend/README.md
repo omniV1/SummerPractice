@@ -135,9 +135,9 @@ All the CSS styles are contained within the `App.css` file located in the `style
 ## Running Tests
 
 To run the tests, use the following command:
-
+```
 npm test
-
+```
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
@@ -153,3 +153,11 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## APP Layout
 
+![Add](https://github.com/omniV1/SummerPractice/blob/main/AerospaceAPI/aircraft-maintenance-frontend/screenshots/Add.png)
+
+
+![Edit](https://github.com/omniV1/SummerPractice/blob/main/AerospaceAPI/aircraft-maintenance-frontend/screenshots/Edit.png)
+
+![View](https://github.com/omniV1/SummerPractice/blob/main/AerospaceAPI/aircraft-maintenance-frontend/screenshots/View.png)
+
+![delete](https://github.com/omniV1/SummerPractice/blob/main/AerospaceAPI/aircraft-maintenance-frontend/screenshots/delete.png)
