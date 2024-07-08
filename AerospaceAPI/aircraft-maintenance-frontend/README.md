@@ -33,34 +33,29 @@ This project is a React-based frontend for the Aircraft Maintenance API, providi
 
 ### Clone the Repository
 
-First, clone the repository to your local machine:
-
+1.) First, clone the repository to your local machine:
+```
 git clone https://github.com/yourusername/aircraft-maintenance-frontend.git
 cd aircraft-maintenance-frontend
 
-
+```
 ### Install Dependencies
 
-Install the necessary dependencies:
-
+2.) Install the necessary dependencies:
+```
 npm install
-
-mathematica
-Copy code
-
+```
 ### Run the Application
 
-Start the React development server:
-
+3.) Start the React development server:
+```
 npm start
-
-csharp
-Copy code
+```
 
 The frontend application should now be running on `http://localhost:3000`.
 
 ## Project Structure
-
+``` Plain text
 aircraft-maintenance-frontend/
 ├── public/
 │ ├── favicon.ico
@@ -93,9 +88,7 @@ aircraft-maintenance-frontend/
 ├── package-lock.json
 ├── package.json
 └── README.md
-
-markdown
-Copy code
+```
 
 ## Components
 
@@ -145,9 +138,6 @@ To run the tests, use the following command:
 
 npm test
 
-markdown
-Copy code
-
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
@@ -160,3 +150,6 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 - [ ] **Styling Improvements**: Enhance the UI with more styling and responsiveness.
 - [ ] **Unit Tests**: Expand unit tests to cover more components and functionalities.
 - [ ] **Integration Tests**: Add integration tests to ensure seamless API integration.
+
+## APP Layout
+
