@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace AircraftMaintenanceAPI.Data  // Make sure this matches the folder structure
+namespace AircraftMaintenanceAPI.Data
 {
     public class AircraftMaintenanceContext : DbContext
     {
@@ -13,8 +13,8 @@ namespace AircraftMaintenanceAPI.Data  // Make sure this matches the folder stru
 
         public DbSet<Aircraft> Aircrafts { get; set; }
         public DbSet<MaintenanceRecord> MaintenanceRecords { get; set; }
-        public DbSet<PerformanceMetric> PerformanceMetrics { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<PerformanceMetric> PerformanceMetrics { get; set; }  // Add this line
+        public DbSet<User> Users { get; set; }  // Add this line
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -34,6 +34,18 @@ namespace AircraftMaintenanceAPI.Data  // Make sure this matches the folder stru
                     LastMaintenanceDate = DateTime.Now
                 }
             );
+
+            modelBuilder.Entity<MaintenanceRecord>()
+                .HasOne(m => m.Aircraft)
+                .WithMany(a => a.MaintenanceRecords)
+                .HasForeignKey(m => m.AircraftId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<PerformanceMetric>()
+                .HasOne(p => p.Aircraft)
+                .WithMany(a => a.PerformanceMetrics)
+                .HasForeignKey(p => p.AircraftId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

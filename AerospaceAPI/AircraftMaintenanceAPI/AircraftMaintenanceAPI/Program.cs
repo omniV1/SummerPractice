@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using AircraftMaintenanceAPI.Data;
 using AircraftMaintenanceAPI.Middleware;
 using AircraftMaintenanceAPI.Services;
+using AircraftMaintenanceAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

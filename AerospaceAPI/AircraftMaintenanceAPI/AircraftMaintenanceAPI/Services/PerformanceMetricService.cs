@@ -1,4 +1,5 @@
-﻿using AircraftMaintenanceAPI.Data;
+
+using AircraftMaintenanceAPI.Data;
 using AircraftMaintenanceAPI.Models;
 using Microsoft.EntityFrameworkCore;
 

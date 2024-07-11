@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AircraftMaintenanceAPI.Migrations
 {
     [DbContext(typeof(AircraftMaintenanceContext))]
-    [Migration("20240705152605_InitialCreate")]
+    [Migration("20240711091828_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -25,7 +25,7 @@ namespace AircraftMaintenanceAPI.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
-            modelBuilder.Entity("AircraftMaintenanceAPI.Models.Aircraft", b =>
+            modelBuilder.Entity("Aircraft", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -35,6 +35,9 @@ namespace AircraftMaintenanceAPI.Migrations
 
                     b.Property<DateTime>("LastMaintenanceDate")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<bool>("MaintenancePerformed")
+                        .HasColumnType("tinyint(1)");
 
                     b.Property<string>("Model")
                         .IsRequired()
@@ -49,6 +52,24 @@ namespace AircraftMaintenanceAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Aircrafts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            LastMaintenanceDate = new DateTime(2024, 7, 11, 2, 18, 28, 313, DateTimeKind.Local).AddTicks(6292),
+                            MaintenancePerformed = false,
+                            Model = "Boeing 747",
+                            SerialNumber = "SN747"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            LastMaintenanceDate = new DateTime(2024, 7, 11, 2, 18, 28, 313, DateTimeKind.Local).AddTicks(6303),
+                            MaintenancePerformed = false,
+                            Model = "Airbus A320",
+                            SerialNumber = "SNA320"
+                        });
                 });
 
             modelBuilder.Entity("AircraftMaintenanceAPI.Models.MaintenanceRecord", b =>
@@ -136,7 +157,7 @@ namespace AircraftMaintenanceAPI.Migrations
 
             modelBuilder.Entity("AircraftMaintenanceAPI.Models.MaintenanceRecord", b =>
                 {
-                    b.HasOne("AircraftMaintenanceAPI.Models.Aircraft", "Aircraft")
+                    b.HasOne("Aircraft", "Aircraft")
                         .WithMany("MaintenanceRecords")
                         .HasForeignKey("AircraftId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -147,7 +168,7 @@ namespace AircraftMaintenanceAPI.Migrations
 
             modelBuilder.Entity("AircraftMaintenanceAPI.Models.PerformanceMetric", b =>
                 {
-                    b.HasOne("AircraftMaintenanceAPI.Models.Aircraft", "Aircraft")
+                    b.HasOne("Aircraft", "Aircraft")
                         .WithMany("PerformanceMetrics")
                         .HasForeignKey("AircraftId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -156,7 +177,7 @@ namespace AircraftMaintenanceAPI.Migrations
                     b.Navigation("Aircraft");
                 });
 
-            modelBuilder.Entity("AircraftMaintenanceAPI.Models.Aircraft", b =>
+            modelBuilder.Entity("Aircraft", b =>
                 {
                     b.Navigation("MaintenanceRecords");
 

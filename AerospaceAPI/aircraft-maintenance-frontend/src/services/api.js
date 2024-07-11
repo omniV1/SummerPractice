@@ -21,3 +21,8 @@ export const updateAircraft = async (id, aircraft) => {
 export const deleteAircraft = async (id) => {
     return await axios.delete(`${API_URL}/${id}`);
 };
+
+export const getMaintenanceRecordsByAircraftId = async (id) => {
+    return await axios.get(`${API_URL}/${id}/maintenance-records`);
+};
+

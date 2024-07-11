@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using AircraftMaintenanceAPI.Data;
 using AircraftMaintenanceAPI.Models;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Linq;
+using AircraftMaintenanceAPI.Data;
 
 namespace AircraftMaintenanceAPI.Controllers
 {
@@ -150,5 +150,22 @@ namespace AircraftMaintenanceAPI.Controllers
         {
             return _context.Aircrafts.Any(e => e.Id == id);
         }
+
+        [HttpGet("{id}/maintenance-records")]
+public async Task<ActionResult<IEnumerable<MaintenanceRecord>>> GetMaintenanceRecords(int id)
+{
+    var aircraft = await _context.Aircrafts
+        .Include(a => a.MaintenanceRecords)
+        .FirstOrDefaultAsync(a => a.Id == id);
+
+    if (aircraft == null)
+    {
+        return NotFound();
+    }
+
+    return Ok(aircraft.MaintenanceRecords);
+}
+
+
     }
 }

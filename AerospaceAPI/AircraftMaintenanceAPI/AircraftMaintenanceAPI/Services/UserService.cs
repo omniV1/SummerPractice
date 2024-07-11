@@ -1,6 +1,8 @@
 ﻿using AircraftMaintenanceAPI.Data;
 using AircraftMaintenanceAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace AircraftMaintenanceAPI.Services
 {
