@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k6SGlIPTUWjGWHD9xlBPWbelWLOIu1lZPoWD/q+r2ffu9CxUqYdEr0R+rbYBosYa8U3SigqfPuA3JHCgXDrWOg==",
+  "dgSpecHash": "WShwtzyb4YFK9VQJ9EvwoNuHJQQIPmySBiBqHr1KE+Cd4i4gbwCgGdLQ1gJPbqp5F0tIxnctokz4B4UT2pVJqA==",
   "success": true,
-  "projectFilePath": "C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj",
+  "projectFilePath": "C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Owenl\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Owenl\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.6\\microsoft.aspnetcore.authentication.jwtbearer.8.0.6.nupkg.sha512",

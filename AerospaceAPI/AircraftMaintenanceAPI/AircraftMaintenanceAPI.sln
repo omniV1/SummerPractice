@@ -1,25 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34622.214
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AircraftMaintenanceAPI", "AircraftMaintenanceAPI\AircraftMaintenanceAPI.csproj", "{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AircraftMaintenanceAPI", "AircraftMaintenanceAPI.csproj", "{D3862070-ECBB-42F1-B81E-6CABF7FA27AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F26B9F5-E1BB-4FE4-B2EC-FAFFBE109060}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6518F302-04AD-4C11-8784-42EDEF5ECEB3}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3862070-ECBB-42F1-B81E-6CABF7FA27AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3862070-ECBB-42F1-B81E-6CABF7FA27AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3862070-ECBB-42F1-B81E-6CABF7FA27AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3862070-ECBB-42F1-B81E-6CABF7FA27AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

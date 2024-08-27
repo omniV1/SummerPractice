@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AircraftMaintenanceAPI.Migrations
 {
     [DbContext(typeof(AircraftMaintenanceContext))]
-    [Migration("20240711091828_InitialCreate")]
+    [Migration("20240824154718_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -57,7 +57,7 @@ namespace AircraftMaintenanceAPI.Migrations
                         new
                         {
                             Id = 1,
-                            LastMaintenanceDate = new DateTime(2024, 7, 11, 2, 18, 28, 313, DateTimeKind.Local).AddTicks(6292),
+                            LastMaintenanceDate = new DateTime(2024, 8, 24, 8, 47, 18, 225, DateTimeKind.Local).AddTicks(5257),
                             MaintenancePerformed = false,
                             Model = "Boeing 747",
                             SerialNumber = "SN747"
@@ -65,7 +65,7 @@ namespace AircraftMaintenanceAPI.Migrations
                         new
                         {
                             Id = 2,
-                            LastMaintenanceDate = new DateTime(2024, 7, 11, 2, 18, 28, 313, DateTimeKind.Local).AddTicks(6303),
+                            LastMaintenanceDate = new DateTime(2024, 8, 24, 8, 47, 18, 225, DateTimeKind.Local).AddTicks(5270),
                             MaintenancePerformed = false,
                             Model = "Airbus A320",
                             SerialNumber = "SNA320"

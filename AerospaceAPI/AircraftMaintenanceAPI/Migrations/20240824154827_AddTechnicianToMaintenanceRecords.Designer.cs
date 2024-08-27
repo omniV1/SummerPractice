@@ -4,6 +4,7 @@ using AircraftMaintenanceAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AircraftMaintenanceAPI.Migrations
 {
     [DbContext(typeof(AircraftMaintenanceContext))]
-    partial class AircraftMaintenanceContextModelSnapshot : ModelSnapshot
+    [Migration("20240824154827_AddTechnicianToMaintenanceRecords")]
+    partial class AddTechnicianToMaintenanceRecords
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,7 +51,25 @@ namespace AircraftMaintenanceAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Aircrafts", (string)null);
+                    b.ToTable("Aircrafts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            LastMaintenanceDate = new DateTime(2024, 8, 24, 8, 48, 26, 970, DateTimeKind.Local).AddTicks(8007),
+                            MaintenancePerformed = false,
+                            Model = "Boeing 747",
+                            SerialNumber = "SN747"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            LastMaintenanceDate = new DateTime(2024, 8, 24, 8, 48, 26, 970, DateTimeKind.Local).AddTicks(8016),
+                            MaintenancePerformed = false,
+                            Model = "Airbus A320",
+                            SerialNumber = "SNA320"
+                        });
                 });
 
             modelBuilder.Entity("AircraftMaintenanceAPI.Models.MaintenanceRecord", b =>
@@ -74,7 +95,7 @@ namespace AircraftMaintenanceAPI.Migrations
 
                     b.HasIndex("AircraftId");
 
-                    b.ToTable("MaintenanceRecords", (string)null);
+                    b.ToTable("MaintenanceRecords");
                 });
 
             modelBuilder.Entity("AircraftMaintenanceAPI.Models.PerformanceMetric", b =>
@@ -103,7 +124,7 @@ namespace AircraftMaintenanceAPI.Migrations
 
                     b.HasIndex("AircraftId");
 
-                    b.ToTable("PerformanceMetrics", (string)null);
+                    b.ToTable("PerformanceMetrics");
                 });
 
             modelBuilder.Entity("AircraftMaintenanceAPI.Models.User", b =>
@@ -131,7 +152,7 @@ namespace AircraftMaintenanceAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("AircraftMaintenanceAPI.Models.MaintenanceRecord", b =>
@@ -148,7 +169,7 @@ namespace AircraftMaintenanceAPI.Migrations
             modelBuilder.Entity("AircraftMaintenanceAPI.Models.PerformanceMetric", b =>
                 {
                     b.HasOne("Aircraft", "Aircraft")
-                        .WithMany()
+                        .WithMany("PerformanceMetrics")
                         .HasForeignKey("AircraftId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -159,6 +180,8 @@ namespace AircraftMaintenanceAPI.Migrations
             modelBuilder.Entity("Aircraft", b =>
                 {
                     b.Navigation("MaintenanceRecords");
+
+                    b.Navigation("PerformanceMetrics");
                 });
 #pragma warning restore 612, 618
         }

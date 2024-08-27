@@ -1,9 +1,14 @@
 import React from 'react';
+import './App.css'; // Ensure this line imports the CSS file where your styles are defined
 
 const Header = () => {
     return (
-        <header>
-            <h1>Aircraft Maintenance App</h1>
+        <header className="header">
+            <div className="header-container">
+                <h1 className="header-title">
+                    Aircraft Maintenance App
+                </h1>
+            </div>
         </header>
     );
 };

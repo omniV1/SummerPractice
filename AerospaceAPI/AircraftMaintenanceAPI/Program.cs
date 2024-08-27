@@ -2,11 +2,17 @@ using Microsoft.EntityFrameworkCore;
 using AircraftMaintenanceAPI.Middleware;
 using AircraftMaintenanceAPI.Services;
 using AircraftMaintenanceAPI.Data;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.MaxDepth = 64; // Adjust depth as needed
+});
+
 builder.Services.AddDbContext<AircraftMaintenanceContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
     new MySqlServerVersion(new Version(8, 0, 21))));
@@ -15,6 +21,7 @@ builder.Services.AddDbContext<AircraftMaintenanceContext>(options =>
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAircraftService, AircraftService>();
 builder.Services.AddScoped<IMaintenanceRecordService, MaintenanceRecordService>();
+builder.Services.AddLogging();
 builder.Services.AddScoped<IPerformanceMetricService, PerformanceMetricService>();
 
 // Add CORS policy

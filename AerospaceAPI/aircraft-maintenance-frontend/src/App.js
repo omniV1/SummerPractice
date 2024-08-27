@@ -5,6 +5,7 @@ import AircraftDetails from './components/AircraftDetails';
 import AircraftForm from './components/AircraftForm';
 import AircraftEdit from './components/AircraftEdit';
 import NavBar from './components/NavBar';
+import MaintenanceRecords from './components/MaintenanceRecords';
 import './styles/App.css';
 
 
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/add-aircraft" element={<AircraftForm />} />
                     <Route path="/aircrafts/:id" element={<AircraftDetails />} />
                     <Route path="/aircrafts/edit/:id" element={<AircraftEdit />} />
+                    <Route path="/aircrafts/:id/maintenance" element={<MaintenanceRecords />} />
                 </Routes>
             </div>
         </Router>

@@ -3299,11 +3299,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj",
+      "projectUniqueName": "C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj",
       "projectName": "AircraftMaintenanceAPI",
-      "projectPath": "C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj",
+      "projectPath": "C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI.csproj",
       "packagesPath": "C:\\Users\\Owenl\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\AircraftMaintenanceAPI\\obj\\",
+      "outputPath": "C:\\git\\SummerPractice\\AerospaceAPI\\AircraftMaintenanceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Owenl\\AppData\\Roaming\\NuGet\\NuGet.Config",
